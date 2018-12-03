@@ -1,0 +1,128 @@
+		* {
+			box-sizing: border-box;
+		}
+
+		.menu{
+			float: left;
+			width: 20%;
+			text-align: center;
+
+		}
+
+		.menu a{
+			background-color:#797f85;
+			padding: 8px;
+			margin-top: 7px;
+			display: block;
+			width: 100%;
+			color: white;
+			font-size: 13pt;
+			font-weight: bold;
+
+		}
+
+		.main{
+			float: left;
+			width: 60%;
+			padding: 0 20px;
+			color: black;
+			
+		}
+
+		.right{
+			background-color: #c01045;
+			float: left;
+			width: 20%;
+			text-align: center;
+			color:black;
+			height: 1000px;
+			background-image: url("back (1500 x 1000).jpg");
+
+
+		}
+			ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #c01045;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #111111;
+		}
+
+		@media only screen and (max-width: 620px;){
+			.menu,.main,.right{
+				width: 100%;
+			}
+		}
+		button{
+			background-color:#797f85;
+			padding: 8px;
+			margin-top: 7px;
+			display: block;
+			width: 100%;
+			color: white;
+			font-size: 13pt;
+			font-weight: bold;
+		}
+		.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 10%;
+    height: 1000px;
+    background-image: url("back (1500 x 1000).jpg");
+}
+
+
+.tab button {
+    display: block;
+    background-color: #c01045;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 15px;
+    height: 1000px;
+    border: 4px solid #ccc;
+    width: 70%;
+    border-left: none;
+    color:white;
+    background-color: #c01045;
+    background-image: url("back (1500 x 1000).jpg");
+}
+p{
+	color:white;
+	background-color: #797f85;
+}
+table,th,td { border: 2px solid black; }
+
